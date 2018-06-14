@@ -1,5 +1,0 @@
-module EchoApp {
-    interface Echo {
-        string echoString ();
-    };
-};
