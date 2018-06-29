@@ -4,3 +4,5 @@ orb.db
 .idea
 out
 *.iml
+Echo.idl
+EchoApp/*
