@@ -56,7 +56,7 @@ within its own JVM.
 ### 5. Compile the code  
 1. Compile the stub and skeleton from the directory that 
 contains the IDL file.  
-
+    
     Windows
     ```shell
     javac EchoApp\*.java
@@ -66,6 +66,7 @@ contains the IDL file.
     javac EchoApp/*.java
     ```
 2. Generate a JAR file from the compiled stub and skeleton.  
+    
     Windows
     ```shell
     jar cvf echoapp.jar EchoApp\*.class
@@ -76,6 +77,7 @@ contains the IDL file.
     ```
 
 3. Compile the server and client classes  
+    
     Windows
     ```shell
     javac -classpath .;echoapp.jar Server.java EchoServer.java Client.java
